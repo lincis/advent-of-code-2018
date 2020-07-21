@@ -1,0 +1,23 @@
+[package]
+name = "advent-of-code-2018"
+version = "0.1.0"
+authors = ["Linards Kalvāns <linards.kalvans@twino.eu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "aoc"
+path = "src/lib.rs"
+
+[dependencies]
+distance = "^0.4.0"
+ndarray = "^0.13.1"
+regex = "1"
+lazy_static = "1"
+chrono = "0"
+ndarray-stats = "0"
+noisy_float = "0"
+crossterm = "0"
+threadpool = "1"
+num_cpus = "1"
+derive_more = "0"
